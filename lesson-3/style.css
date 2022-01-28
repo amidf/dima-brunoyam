@@ -1,0 +1,6 @@
+li::before {
+    content: "Акция";
+    margin-right: 12px;
+    color: red;
+    border: 1px solid;
+}
