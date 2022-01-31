@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 80px;
+}
+
+.logo-container h1 {
+    color: #59abe3;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
