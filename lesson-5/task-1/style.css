@@ -1,0 +1,60 @@
+header,
+.left-menu,
+.content,
+.right-menu,
+footer {
+    border: 2px solid black;
+}
+
+header,
+footer {
+    height: 80px;
+}
+
+.container {
+    display: flex;
+}
+
+.top,
+.bottom {
+    height: 120px;
+}
+
+.main {
+    height: 600px;
+}
+
+
+/* .left-menu,
+.right-menu {
+    width: 20%;
+}
+
+.content {
+    width: 60%;
+} */
+
+.left-menu,
+.right-menu,
+.content {
+    margin: 16px;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+
+.left-menu,
+.right-menu {
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 4;
+}

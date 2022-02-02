@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #87509c;
+    padding: 0 32px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin: 0 4px;
+}
+
+.nav a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: 0.3s background-color;
+}
+
+.nav a:hover {
+    background-color: #643a79;
+}
+
+.features {
+    background-color: #17c2a4;
+    padding: 128px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.features .section-heading h2,
+.features .content h3 {
+    text-transform: uppercase;
+}
+
+.features .section-heading h2 {
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.features .section-heading p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    width: 650px;
+    margin: 0;
+}
+
+.features .section-heading .divider {
+    width: 87px;
+    height: 4px;
+    opacity: 0.14;
+    background-color: #000000;
+    margin: 21px auto 18px auto;
+}
+
+.features .content {
+    display: flex;
+    margin-top: 78px;
+}
+
+.features .content .feature {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16px;
+    max-width: 200px;
+}
+
+.features .content .circle {
+    width: 128px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 62px;
+}
+
+.features .content h3 {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.features .content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
