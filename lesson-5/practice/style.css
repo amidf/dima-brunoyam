@@ -16,6 +16,15 @@ body {
     padding: 0 32px;
 }
 
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .nav ul {
     display: flex;
     list-style: none;
