@@ -1,0 +1,140 @@
+/* @media (max-width: 992px) {
+    p {
+        background-color: orange;
+        color: red;
+        font-size: 32px;
+    }
+} */
+
+
+/* @media (min-width: 992px) {
+    p {
+        background-color: orange;
+        color: red;
+        font-size: 32px;
+    }
+} */
+
+
+/* @media (max-height: 200px) {
+    p {
+        background-color: orange;
+        color: red;
+        font-size: 32px;
+    }
+} */
+
+
+/* @media (min-height: 200px) {
+    p {
+        background-color: orange;
+        color: red;
+        font-size: 32px;
+    }
+} */
+
+
+/* @media (min-width: 768px) and (max-width: 1000px) {
+    body {
+        background-color: pink;
+    }
+} */
+
+
+/* Desktop First Method */
+
+
+/* body {
+    background-color: blue;
+}
+
+
+/* Tablets */
+
+
+/* @media (max-width: 1199px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+} */
+
+
+/* Mobile */
+
+
+/* @media (max-width: 599px) {
+    body {
+        background-color: green;
+    }
+} */
+
+
+/* Mobile First Method */
+
+
+/* body {
+    background-color: blue;
+} */
+
+
+/* Mobile */
+
+
+/* @media (min-width: 599px) {
+    body {
+        background-color: green;
+    }
+} */
+
+
+/* Tablets */
+
+
+/* @media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1199px) {
+    body {
+        background-color: orange;
+    }
+} */
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: silver;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inner {
+    position: relative;
+}
+
+.phone {
+    width: 275px;
+    height: 477px;
+    background-color: tomato;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
+
+.tablet {
+    width: 600px;
+    height: 600px;
+    background-color: royalblue;
+}
