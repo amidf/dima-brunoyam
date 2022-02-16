@@ -42,8 +42,8 @@
 // let a = "Test"
 
 // typeof - определение типа значения или переменной
-// console.log(typeof a)
-// console.log(typeof "Test")
+// console.log(typeof a) // string
+// console.log(typeof "Test") // string
 
 // a = 5
 
@@ -355,16 +355,16 @@
 
 // break и continue
 
-let i = 0;
+// let i = 0;
 
-while (i < 10) {
-    if (i === 2) {
-        i++
-        continue
-    }
+// while (i < 10) {
+//     if (i === 2) {
+//         i++
+//         continue
+//     }
 
-    console.log(i)
-    i++
-}
+//     console.log(i)
+//     i++
+// }
 
-console.log("after loop")
+// console.log("after loop")
