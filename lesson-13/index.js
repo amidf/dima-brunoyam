@@ -119,44 +119,44 @@
 //     console.log('key', event.key)
 // })
 
-// const div = document.querySelector('div')
+const div = document.querySelector('div')
 
-// document.body.addEventListener('keydown', function(event) {
-//     console.log('code', event.code)
+document.body.addEventListener('keydown', function(event) {
+    console.log('code', event.code)
 
-//     console.log('top', div.style.top)
-//     console.log('left', div.style.left)
+    console.log('top', div.style.top)
+    console.log('left', div.style.left)
 
-//     const top = Number(div.style.top.replace("px", ""))
-//     const left = Number(div.style.left.replace("px", ""))
+    const top = Number(div.style.top.replace("px", ""))
+    const left = Number(div.style.left.replace("px", ""))
 
-//     switch (event.code) {
-//         case "ArrowUp":
-//             {
-//                 div.style.top = `${top - 10}px`
+    switch (event.code) {
+        case "ArrowUp":
+            {
+                div.style.top = `${top - 10}px`
 
-//                 break
-//             }
-//         case "ArrowDown":
-//             {
-//                 div.style.top = `${top + 10}px`
+                break
+            }
+        case "ArrowDown":
+            {
+                div.style.top = `${top + 10}px`
 
-//                 break
-//             }
-//         case "ArrowLeft":
-//             {
-//                 div.style.left = `${left - 10}px`
+                break
+            }
+        case "ArrowLeft":
+            {
+                div.style.left = `${left - 10}px`
 
-//                 break
-//             }
-//         case "ArrowRight":
-//             {
-//                 div.style.left = `${left + 10}px`
+                break
+            }
+        case "ArrowRight":
+            {
+                div.style.left = `${left + 10}px`
 
-//                 break
-//             }
-//     }
-// })
+                break
+            }
+    }
+})
 
 // const btn = document.querySelector('button')
 
